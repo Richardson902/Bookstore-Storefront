@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nick's Bookstore - Home</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html"><img src="media/logo.png" alt="NB" /></a>
+      </div>
+
+      <div class="nav">
+        <input type="checkbox" class="toggle-menu" />
+        <div class="hamburger"></div>
+        <ul class="menu">
+          <li><a href="categories/topsellers.html">Top Sellers</a></li>
+          <li><a href="categories/fiction.html">Fiction</a></li>
+          <li><a href="categories/nonfiction.html">Non-Fiction</a></li>
+          <li><a href="categories/kids.html">Kids</a></li>
+        </ul>
+      </div>
+    </header>
+    <banner>
+      <img src="media/banner.png" alt="Nick's Bookstore" />
+    </banner>
+    <main>
+      <section class="new-books">
+        <h1>Bookstore Library Updated Every Week!</h1>
+        <h2>New Books</h2>
+        <div class="book-container">
+          <div class="book-card">
+            <a href="categories/books/the_outsiders.html">
+              <img src="media/the_outsiders.jpg" alt="The Outsiders" />
+            </a>
+            <p>$17.99</p>
+          </div>
+          <div class="book-card">
+            <a href="categories/books/rudolph.html">
+              <img
+                src="media/rudolph.jpg"
+                alt="Rudolph the Red-Nosed Reindeer"
+              />
+            </a>
+            <p>$5.99</p>
+          </div>
+          <div class="book-card">
+            <a href="categories/books/dopesick.html"
+              ><img src="media/dope_sick.jpg" alt="Dopesick"
+            /></a>
+            <p>$29.99</p>
+          </div>
+          <div class="book-card">
+            <a href="categories/books/22_murders.html"
+              ><img src="media/22_murders.jpg" alt="22 Murders"
+            /></a>
+            <p>$26.99</p>
+          </div>
+        </div>
+      </section>
+      <section class="sale-items">
+        <h2>Items on Sale</h2>
+        <div class="book-container">
+          <div class="book-card">
+            <a href="categories/books/the_kite_runner.html"
+              ><img src="media/kite_runner.jpg" alt="Kite Runner"
+            /></a>
+            <p>$19.99</p>
+            <p class="sale">$10.99</p>
+          </div>
+          <div class="book-card">
+            <a href="categories/books/ispy.html"
+              ><img src="media/ispy.jpg" alt="I Spy"
+            /></a>
+            <p>$10.99</p>
+            <p class="sale">$5.99</p>
+          </div>
+          <div class="book-card">
+            <a href="categories/books/tom_sawyer.html"
+              ><img src="media/tom_sawyer.jpg" alt="Tom Sawyer"
+            /></a>
+            <p>$15.99</p>
+            <p class="sale">$10.99</p>
+          </div>
+          <div class="book-card">
+            <a href="/categories/books/the_lorax.html"
+              ><img src="media/lorax.jpg" alt="The Lorax"
+            /></a>
+            <p>$10.99</p>
+            <p class="sale">$5.99</p>
+          </div>
+        </div>
+      </section>
+      <div class="quote-container">
+        <article class="quote-card">
+          <p>"A book is a gift you can open again and again."</p>
+          <p class="quote-author">- Garrison Keillor</p>
+        </article>
+        <article class="quote-card">
+          <p>"There is no friend as loyal as a book."</p>
+          <p class="quote-author">- Ernest Hemingway</p>
+        </article>
+        <article class="quote-card">
+          <p>"A reader lives a thousand lives before he dies."</p>
+          <p class="quote-author">- George R. R. Martin</p>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <section class="subscribe">
+        <h2>Be the First to Know!</h2>
+        <p>
+          Sign up for the newsletter and get $5 off your next purchase of $25+,
+          plus be the first to know of any new exlusive offers, new arrivals,
+          and more.
+        </p>
+        <form>
+          <input
+            type="email"
+            name="email"
+            placeholder="email@example.com"
+            required
+          />
+          <input type="submit" name="submit" value="Subscribe" />
+        </form>
+        <a class="icon" href="404.html"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a class="icon" href="404.html"><i class="fa-brands fa-twitter"></i></a>
+        <a class="icon" href="404.html"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </section>
+      <section class="copyright">
+        <p>Copyright 2023 Nick's Bookstore</p>
+      </section>
+    </footer>
+  </body>
+</html>
